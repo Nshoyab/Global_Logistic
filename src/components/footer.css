@@ -1,0 +1,46 @@
+*{
+    list-style: none;
+}
+.footer-head{
+    color: orange; 
+    font-size:25px; 
+  
+}
+
+#footer-mg{
+   padding-top:25px;
+   padding-bottom: 7px; color: white;
+   
+}
+.footer-head1{
+    line-height:29px;
+    font-weight: 600; color: white;
+}
+#map-bag{
+    padding: 44px;
+}
+#btn-footer{
+    padding-top:12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 12px;
+    font-size:15px;
+    background-color: orange;
+    color: white;transition: all 1s ease-in-out .1s;
+}
+#email{
+    color: orange;
+}
+#btn-footer:hover{
+    padding-top:14px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 14px;
+    font-size:15px;
+    background-color: white;
+    color: black;
+}
+#map-bag{
+    background-color: orange; color: white;
+    background-image: url("https://wallpapercave.com/wp/wp3328604.jpg");
+}

@@ -1,0 +1,12 @@
+.img-thumbnail{
+    width:270px;
+    height: 300px;
+    transition: all 1s ease-in-out .1s;
+    margin-left: 10px;
+}
+.img-thumbnail:hover{
+    width:280px;
+    height: 380px;
+    box-shadow: 2px 2px black 2px;
+   
+}

@@ -1,0 +1,14 @@
+.card{
+    width:14rem;
+    transition: all 1s ease-in-out .1s;
+}
+.card:hover{
+    width:15rem;
+}
+.card-text{
+    width:100%;
+    padding: 24px;
+}
+.text-card{
+   text-align: center;
+}

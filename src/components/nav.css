@@ -1,0 +1,125 @@
+.navbar-icon{
+    width:170px;
+}
+.navbar-nav{
+ font-size:14px ;
+}
+
+div:not(.carousel-item)
+{
+  animation-name: example;
+  animation-duration:1s;
+}
+#icon-n{
+font-size:22px;
+margin-right: 12px;
+}
+
+@keyframes example {
+  from {transform: translateY(19px);}
+  to {transform: translateY(-4px);}  
+}
+  .carousel-item{
+      height:550px;
+  }
+  #train-i{
+    color: orange;
+  }
+  #sin{
+    color: orange;
+  }
+  #nnd{
+    background-color: orange;
+    color: white;
+   
+    transition: all 1s ease-in-out .1s;
+  }
+  #nnd:hover{
+    background-color: white;
+   color: black; padding: 8px;
+  }
+.btn-nav{
+   padding-top: 12px;
+   padding-left: 22px;
+   padding-right: 22px;
+   padding-bottom: 12px;
+   background-color: rgb(14, 128, 14);
+   color: white;
+   font-size:20px;
+   font-weight: 600;
+   border-radius: 12px;
+   transition: all 1s ease-in-out .1s;
+}
+.btn-nav:hover{
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    background-color: rgb(26, 117, 26);
+    color: white;
+    font-size:20px;
+    font-weight: 600;
+    
+ }
+ #nav-bold{
+  color: black;
+  font-weight: 600;
+
+  
+ }
+.slider-img{
+    height:55%;
+}
+.carousel-caption-head{
+    font-size:80%;
+    font-weight: 600;
+}
+.btn-navslider{
+    padding-top: 15px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 15px;
+    border-radius:15px;
+    font-weight: 600;
+    background-color: orange;
+    color: white;
+    transition: all 1s ease-in-out .1s;
+}
+.btn-navslider:hover{
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-radius:12px;
+  font-weight: 600;
+  background-color:white;
+  color:black
+}
+.imgs{
+    width:100%;
+}
+.banner{
+    font-size:22px;
+    text-align: center;color: white;
+}
+.banner1{
+    font-size:18px;
+    text-align: center;
+    color: white;
+}
+#banner-img{
+    background-image: url("https://th.bing.com/th/id/R.cae2b472a6f1cdaa99d25136227d32e1?rik=30v5m3kfjICf8w&riu=http%3a%2f%2fwww.drodd.com%2fimages16%2fblack-picture10.jpg&ehk=J5mSS4MRPrrwCcMS%2bD9rP0sKuJxWfRxopWEGC7KPgg0%3d&risl=&pid=ImgRaw&r=0");
+    background-size: 100%;
+    padding-top: 45px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 45px;
+    margin-top: 44px;
+margin-bottom: 44px;}
+
+#form-border{
+    padding: 45px;
+    padding-bottom:40%;
+    border: 22px;
+    border: solid 2px;
+}
